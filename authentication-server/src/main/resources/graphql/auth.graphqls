@@ -1,0 +1,21 @@
+
+type Query {
+    login(email:String!, password:String!):String
+    getNewAccessToken(token:String!):String
+    validateToken( token:String):String
+}
+
+type Mutation {
+    registerUser(name:String!,email:String!,password:String!):String
+}
+
+
+type User{
+id: ID,
+name:String,
+email:String,
+password:String
+}
+
+
+
