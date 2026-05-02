@@ -1,6 +1,6 @@
 # Booking Microservices
 
-- [x] Authetication module
+- [x] Authetication module (JWT Based)
 - [ ] Booking module
 - [ ] Payment module
 
